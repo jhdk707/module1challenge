@@ -1,3 +1,9 @@
+/* Style Sheet Information for HoriSeon Webpage Project 
+File Created Date:  12.03.2022
+Last Modified Date: 12.00.2022
+By: Jesse Hudak */ 
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -88,54 +94,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* reused css for lead/brand/cost body */
 
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+.benefit-lead, 
+.benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/*reused css for lead/brand/cost h3 */
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3, 
+.benefit-brand h3, 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*reused css for lead/brand/cost img */
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 .search-engine-optimization {
     margin-bottom: 20px;
