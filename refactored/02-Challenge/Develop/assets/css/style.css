@@ -1,6 +1,6 @@
 /* Style Sheet Information for HoriSeon Webpage Project 
 File Created Date:  12.03.2022
-Last Modified Date: 12.00.2022
+Last Modified Date: 12.04.2022
 By: Jesse Hudak */ 
 
 
@@ -40,12 +40,13 @@ body {
     font-size: 20px;
 }
 
-/*changed from .header div ul li to .header nav ul li to matched sematics tags in html */
+/*changed from .header div ul to .header nav ul to matched sematics tags in html */
 
 .header nav ul {
     list-style-type: none;
 }
 
+/*changed from .header div ul li to .header nav ul li to matched sematics tags in html */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -124,7 +125,7 @@ p {
     max-width: 150px;
 }
 
-
+/*reused css for content sections */
 .search-engine-optimization, 
 .online-reputation-management, 
 .social-media-marketing {
@@ -136,7 +137,7 @@ p {
     color: #ffffff;
 }
 
-/* these pictures did not want to share code, tried multiple times */ 
+/* these pictures did not want to share style code, tried multiple times */ 
 
 .search-engine-optimization img {
     max-height: 200px;
